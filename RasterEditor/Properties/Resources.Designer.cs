@@ -61,6 +61,26 @@ namespace RasterEditor.Properties {
         }
         
         /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap line16 {
+            get {
+                object obj = ResourceManager.GetObject("line16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap pencil16 {
+            get {
+                object obj = ResourceManager.GetObject("pencil16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
         /// </summary>
         public static System.Drawing.Icon RasterEditorIcon {
@@ -76,6 +96,26 @@ namespace RasterEditor.Properties {
         public static System.Drawing.Bitmap RasterEditorLogo {
             get {
                 object obj = ResourceManager.GetObject("RasterEditorLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap rectange16 {
+            get {
+                object obj = ResourceManager.GetObject("rectange16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Width {
+            get {
+                object obj = ResourceManager.GetObject("Width", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
